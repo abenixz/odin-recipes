@@ -1,0 +1,29 @@
+body {
+    padding-top: 140px;
+    font-family: ui-sans-serif, sans-serif;
+}
+
+h1 {
+    color: #302B27;
+    text-decoration: underline wavy wheat;
+}
+
+h3, h1 {
+    text-align: center;
+}
+h3 {
+    padding: 10px;
+    
+}
+
+h3 a {
+    text-decoration: none;
+    color:#00D9C0;
+}
+hr {
+    
+    width: 40px;
+    height: 2px;
+    background-color: #302B27;
+    padding-to;
+}
