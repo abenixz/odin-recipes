@@ -1,28 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
 body {
-    padding-top: 140px;
-    font-family: ui-sans-serif, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    backdrop-filter: gradient;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/bggradient.png);
+    
+}
+
+.menu-box {
+    width: 600px;
+    height: 700px;
+    background: transparent;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 40px 40px;
+    font-size: 22px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 60px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 h1 {
-    color: #302B27;
-    text-decoration: underline wavy wheat;
+    color: white;
+    margin-bottom: 20px;
 }
 
 h3, h1 {
     text-align: center;
-}
-h3 {
-    padding: 10px;
-    
+    padding-top: 110px; 
 }
 
-h3 a {
-    text-decoration: none;
-    color:#00D9C0;
+h3 {
+    padding: 10px;
 }
-hr {
-    
-    width: 40px;
-    height: 2px;
-    background-color: #302B27;
+
+.h1 {
+        padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #093435;
 }
